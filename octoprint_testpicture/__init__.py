@@ -4,8 +4,6 @@ from octoprint.schema.webcam import Webcam, WebcamCompatibility
 
 import os
 
-import flask
-
 
 class TestPictureWebcamPlugin(
     octoprint.plugin.AssetPlugin,
