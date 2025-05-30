@@ -29,7 +29,7 @@ class TestPictureWebcamPlugin(
                 name="testpicture",
                 displayName="Test Picture",
                 canSnapshot=True,
-                snapshot="Internal Testimage",
+                snapshotDisplay="Internal Testimage",
                 compat=WebcamCompatibility(
                     snapshot="/plugin/testpicture/static/testpicture.jpg",
                     stream="/plugin/testpicture/static/testpicture.jpg",
